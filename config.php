@@ -1,8 +1,8 @@
 <?php
-$host = "192.168.1.225";
-$dbname = "demo_exam";
+$host = "127.0.0.1";
+$dbname = "vdc";
 $username = "root";
-$password = "123";
+$password = "1234";
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
